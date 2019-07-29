@@ -5,6 +5,8 @@
 
 Easily adds a language switcher to a Nuxt+Vuetify+I88n App similar to the one on Vuetifyjs.com
 
+<p align="center"><img align="center" height="300px" src="https://github.com/lupas/vuetify-i18n-language-switcher-nuxt/blob/master/docs/exampleScreenshot.png?raw=true"/></p>
+
 # How to install?
 
 ```js
