@@ -1,0 +1,37 @@
+{
+  "name": "vuetify-i18n-language-switcher-nuxt",
+  "version": "0.0.2",
+  "description": "Vuetify-based language switcher for i18n and Nuxt.",
+  "author": "Pascal Luther",
+  "license": "MIT",
+  "homepage": "https://github.com/lupas",
+  "keywords": [
+    "nuxt, vuetify, i18n, languageswitcher"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/VuetifyI18nLanguageSwitcherNuxt.umd.js",
+  "unpkg": "dist/VuetifyI18nLanguageSwitcherNuxt.umd.min.js",
+  "scripts": {
+    "serve": "vue-cli-service serve src/index.vue",
+    "build": "vue-cli-service build",
+    "build:npm": "vue-cli-service build --target lib --name VuetifyI18nLanguageSwitcherNuxt src/index.vue",
+    "publish:npm": "npm run build:npm && npm publish"
+  },
+  "peerDependencies": {
+    "vuetify": "^2.0.1",
+    "nuxt": "^2.8.1",
+    "nuxt-i18n": "^6.0.0"
+  },
+  "devDependencies": {
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "@vue/cli": "^3.9.3",
+    "@vue/cli-service": "^3.9.3"
+  }
+}
